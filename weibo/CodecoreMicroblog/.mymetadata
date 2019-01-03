@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="CodecoreMicroblog"
+  id="myeclipse.1309270629822"
+  context-root="/CodecoreMicroblog"
+  j2ee-spec="5.0"
+  archive="CodecoreMicroblog.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

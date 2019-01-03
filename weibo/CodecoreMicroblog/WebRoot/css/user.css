@@ -1,0 +1,237 @@
+/* CSS Document */
+body{
+	background-image:url(../images/home_bg.jpg);
+	background-repeat:repeat-x;
+	background-color:#70CBE0;
+}
+
+/*header*/
+#header{
+	width:950px;
+	height:80px;
+	/*background-image:url(../images/home_top.jpg);*/
+}
+#daohang{
+	width:350px;
+	height:35px;
+	background-image:url(../images/home_daohang_bg.png);
+	background-repeat:no-repeat;
+	text-align:center;
+	font-size:14px;	
+}
+#daohang a:link{
+	text-decoration:none;	
+	color:#DFF;
+}
+#daohang a:visited{
+	text-decoration:none;
+	color:#DFF;
+}
+#daohang a:hover{
+	text-decoration:none;
+	color:#F90;
+}
+#welcome{
+	width:180px;
+	height:36px;
+}
+#welcome td{
+	color:#FFF;
+	text-align:center;
+}
+#welcome a{
+	color:#FFF;
+	text-decoration:none;
+}
+#welcome .userface_bg{
+	background-image:url(../images/topuesrimg_bg.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+	vertical-align:middle;
+}
+/* container */
+#container{
+	width:950px;
+	/*background-image:url(../images/home_bg.gif);*/
+	background-color:#FFFFFF;
+	background-repeat:no-repeat;
+}
+
+#curruser{
+	margin-top:20px;
+	margin-bottom:10px;
+	background-color:#EFEFEF;
+	padding:10px;
+}
+#curruser .userphoto{
+	border:solid 1px #CCC;
+	padding:3px;
+}
+#curruserdetail{
+	line-height:20px;
+	padding-left:10px;
+	font-size:14px;
+	
+}
+#curruserdetail .title{
+	font-size:16px;
+	color:#09C;
+	font-weight:bold;
+}
+#curruserdetail a{
+	color:#09C;
+	text-decoration:none;
+}
+
+#menu{
+	width:90%;
+	height:35px;
+	background-image:url(../images/menu_bg.gif);
+	margin-top:10px;
+	color:#09F;
+}
+#menu .menu_btn{
+	height:25px;
+	color:#666;
+	background-image:url(../images/menu_btn.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+#menu .input{
+	width:200px;
+	height:18px;
+	border:solid 1px #CCC;
+	color:#666;
+}
+#menu .btnsearch{
+	width:60px;
+	height:23px;
+	border:solid 1px #CCC;
+	color:#666;
+}
+#weibo{
+	margin-top:10px;
+	border-bottom:dotted 1px #CCC;
+}
+#weibo img{
+	margin:5px 10px 0px 0px;
+	padding:2px;
+	border:solid 1px #CCC;	
+}
+#weibo .content{
+	line-height:25px;
+	font-size:14px;
+}
+#weibo .content a{
+	color:#09C;
+	text-decoration:none;
+}
+#weibo .content img{
+	border:none;
+	vertical-align:middle;
+	margin:0px;
+	padding:0px;
+}
+#weibo_status{
+	color:#09C;
+}
+
+/*page*/
+#page{
+	width:90%;
+	height:60px;
+	margin-bottom:20px;
+}
+#page .nextpage{
+	border:solid 1px #999;	
+	background-color:#EFEFEF;	
+}
+
+/*pageright*/
+.pageright{
+	background-color:#F0F0F0;
+	border-left:1px dotted #CCCCCC;
+}
+
+/*usreinfo*/
+#userinfo{
+	width:90%;
+	height:100px;
+	margin-top:10px;
+	font-size:14px;
+	color:#666;
+	text-align:left;
+}
+#userinfo img{
+	border:1px #CCC solid;
+	padding:2px;
+}
+#userinfo a{
+	color:#09C;
+	text-decoration:none;
+	font-size:14px;
+}
+#userinfo .split1{
+	border-top:dotted 1px #CCC;
+}
+#userinfo .split2{
+	border-right:solid 1px #CCC;
+}
+/*userlist*/
+#userlist{
+	width:90%;
+	color:#666;
+	margin-top:10px;
+	text-align:left;
+}
+
+#usrelist a{
+	color:#09C;
+}
+#userlist .title{
+	background-image:url(../images/menu_bg.gif);
+	padding-left:5px;
+	font-size:14px;
+	font-weight:bold;
+}
+#userlist .title a{
+	color:#09C;
+	text-decoration:none;
+}
+.userdetail{
+	width:100%;
+	border-bottom:1px dotted #999999;
+}
+.userdetail a{
+	font-size:14px;
+	color:#09C;
+	text-decoration:none;
+}
+.userdetail img{
+	border:solid 1px #CCC;
+	padding:1px;
+	margin:10px;
+}
+.btnguanzhu{
+	border:1px solid #CCC;
+	background-color:#EFEFEF;
+	color:#F60;
+	float:right;
+}
+
+/*footer*/
+#footer{
+	width:950px;
+	color:#999;
+	background-color:#F0F0F0;
+	margin-top:2px;
+	padding:30px 30px 30px 30px;
+}
+#footer a{
+	color:#09C;
+	text-decoration:none;
+}
+
+
+

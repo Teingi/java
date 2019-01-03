@@ -1,0 +1,13 @@
+@charset "gb2312";
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;	
+	font-size:12px;
+	font-family:"Î¢ÈíÑÅºÚ";
+}
+#top{
+	position:fixed;
+	bottom:0;
+	right:10px;
+	}

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+ <filter>
+  	<filter-name>encoding</filter-name>
+  	<filter-class>com.codecore.tools.EncodingFilter</filter-class>
+  </filter>
+  <filter>
+  	<filter-name>cookie</filter-name>
+  	<filter-class>com.codecore.tools.CookieFilter</filter-class>
+  </filter>
+  <listener>
+  	<listener-class>com.codecore.tools.InitIndex</listener-class>
+  </listener>
+  <servlet>
+    <servlet-name>UploadFileServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.UploadFileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AttentionServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.AttentionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RemoveServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.RemoveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowAttentionBlogServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.ShowAttentionBlogServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddAttentionServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.AddAttentionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PageServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.PageServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ImageUploadServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.ImageUploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BlogPublishServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.BlogPublishServlet</servlet-class>
+  </servlet>
+<servlet>
+    <servlet-name>UpdateuserInfoServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.UpdateuserInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdatepasswordServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.UpdatepasswordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateimgServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.UpdateimgServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.RegisterServlet</servlet-class>
+  </servlet>
+
+<servlet>
+    <servlet-name>ShowFriendsServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.ShowFriendsServlet</servlet-class>
+  </servlet>
+<servlet>
+    <servlet-name>ShowFollowingServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.ShowFollowingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowFansServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.ShowFansServlet</servlet-class>
+  </servlet>
+<servlet>
+	<servlet-name>DeleteBlogServlet</servlet-name>
+	<servlet-class>com.codecore.servlet.DeleteBlogServlet</servlet-class>
+</servlet>
+  <servlet>
+    <servlet-name>DispatchBlogServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.DispatchBlogServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchResultServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.SearchResultServlet</servlet-class>
+  </servlet>
+    <servlet>
+    <servlet-name>AddFollowingServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.AddFollowingServlet</servlet-class>
+  </servlet>
+      <servlet>
+    <servlet-name>ShowInterestBlogServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.ShowInterestBlogServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchHomeServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.SearchHomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchProfileServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.SearchProfileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchFriendServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.SearchFriendServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddCommentServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.AddCommentServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <servlet-name>CancelFollowingServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.CancelFollowingServlet</servlet-class>
+  </servlet>
+
+     <servlet>
+    <servlet-name>FindpasswordServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.FindpasswordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCollectServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.AddCollectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CancelCollectServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.CancelCollectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowCollectServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.ShowCollectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchCollectServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.SearchCollectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckMailServlet</servlet-name>
+    <servlet-class>com.codecore.servlet.CheckMailServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+  
+  
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>DeleteBlogServlet</servlet-name>
+		<url-pattern>/DeleteBlogServlet</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateuserInfoServlet</servlet-name>
+    <url-pattern>/servlet/UpdateuserInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatepasswordServlet</servlet-name>
+    <url-pattern>/servlet/UpdatepasswordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateimgServlet</servlet-name>
+    <url-pattern>/servlet/UpdateimgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImageUploadServlet</servlet-name>
+    <url-pattern>/servlet/ImageUploadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BlogPublishServlet</servlet-name>
+    <url-pattern>/servlet/BlogPublishServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadFileServlet</servlet-name>
+    <url-pattern>/UploadFileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AttentionServlet</servlet-name>
+    <url-pattern>/AttentionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemoveServlet</servlet-name>
+    <url-pattern>/RemoveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowAttentionBlogServlet</servlet-name>
+    <url-pattern>/ShowAttentionBlogServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddAttentionServlet</servlet-name>
+    <url-pattern>/AddAttentionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PageServlet</servlet-name>
+    <url-pattern>/PageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>ShowFriendsServlet</servlet-name>
+    <url-pattern>/servlet/ShowFriendsServlet</url-pattern>
+  </servlet-mapping>
+     <servlet-mapping>
+    <servlet-name>ShowFollowingServlet</servlet-name>
+    <url-pattern>/servlet/ShowFollowingServlet</url-pattern>
+  </servlet-mapping>
+     <servlet-mapping>
+    <servlet-name>ShowFansServlet</servlet-name>
+    <url-pattern>/servlet/ShowFansServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DispatchBlogServlet</servlet-name>
+    <url-pattern>/DispatchBlogServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchResultServlet</servlet-name>
+    <url-pattern>/servlet/SearchResultServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>AddFollowingServlet</servlet-name>
+    <url-pattern>/AddFollowingServlet</url-pattern>
+  </servlet-mapping>
+      <servlet-mapping>
+    <servlet-name>ShowInterestBlogServlet</servlet-name>
+    <url-pattern>/ShowInterestBlogServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchHomeServlet</servlet-name>
+    <url-pattern>/servlet/SearchHomeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchProfileServlet</servlet-name>
+    <url-pattern>/servlet/SearchProfileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchFriendServlet</servlet-name>
+    <url-pattern>/servlet/SearchFriendServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCommentServlet</servlet-name>
+    <url-pattern>/AddCommentServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>CancelFollowingServlet</servlet-name>
+    <url-pattern>/CancelFollowingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindpasswordServlet</servlet-name>
+    <url-pattern>/servlet/FindpasswordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCollectServlet</servlet-name>
+    <url-pattern>/servlet/AddCollectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CancelCollectServlet</servlet-name>
+    <url-pattern>/servlet/CancelCollectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowCollectServlet</servlet-name>
+    <url-pattern>/servlet/ShowCollectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchCollectServlet</servlet-name>
+    <url-pattern>/servlet/SearchCollectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckMailServlet</servlet-name>
+    <url-pattern>/CheckMailServlet</url-pattern>
+  </servlet-mapping>
+	
+	<filter-mapping>
+		<filter-name>encoding</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>cookie</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

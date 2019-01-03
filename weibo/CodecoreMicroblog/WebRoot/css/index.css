@@ -1,0 +1,148 @@
+/* CSS Document */
+
+/*页面样式*/
+body{	
+	background-image:url(../images/index_bg.jpg);	
+}
+
+/*Header 样式*/
+#header{
+	width:1001px;
+	height:80px;
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+#daohang{
+	width:160px;
+	height:35px;
+	color:#999;
+}
+#daohang a:link{
+	color:#666;
+	text-decoration:none;
+	font-size:14px;
+}
+#daohang a:visited{
+	color:#666;
+	text-decoration:none;
+	font-size:14px;
+}
+#daohang a:hover{
+	color:#F60;
+	text-decoration:none;
+	font-size:14px;
+}
+
+/*container*/
+#container{
+	width:1001px;
+	height:460px;
+	background-image:url(../images/container_bg.gif);
+	background-repeat:no-repeat;
+}
+#content{
+	width:100%;
+}
+#content .phototitle{
+	font-size:14px;
+	font-weight:bold;
+	color:#333333;
+	padding:15px 5px 5px 15px;	
+}
+/*photolist*/
+#photolist{
+	margin:15px;margin-top:0px;border-top:#6699FF dotted 1px;
+}
+#photolist img{
+	width:80px;
+	height:80px;
+	border:solid 1px #CCC;
+	margin:1px;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+/*counter*/
+#counter{
+	width:668px;
+	height:135px;
+	background-image:url(../images/counter_bg.jpg);
+	background-repeat:no-repeat;
+}
+.counternum{
+	font-size:20px;
+	color:#0066CC;
+	font-weight:bold;
+	text-align:center;
+	width:150px;
+	padding:37px 395px 0px 0px;
+}
+/*login*/
+#login td{
+	font-size:12px;
+	color:#333333;
+	padding:5px 0px;
+}
+.logininput{
+	width:200px;
+	height:17px;
+	color:#666;
+	font-weight:bold;
+	font-size:15px;
+	font-family:"微软雅黑";
+}
+
+.loginbtn{
+	background-color:#DEDEDE
+	font-size:12px;
+	color:#666;
+	padding:3px;
+	margin-top:5px;
+	border:1px solid #666;
+	border-left:1px #999 solid;
+	border-top:1px #999 solid;
+	cursor:pointer;
+}
+
+/*message*/
+#message .title{
+	font-size:14px;
+	color:#333333;
+	font-weight:bold;
+	padding:5px 30px;
+	background-image:url(../icon/laba.gif);
+	background-repeat:no-repeat;
+	background-position:15px 8px;
+}
+#message ul{
+	font-size:13px;
+	color:#666666;
+	margin-top:2px;
+	margin-left:10px;
+}
+#message ul a{
+	text-decoration:none;
+	color:#09C;
+}
+#message img{
+	border:2px double #FFFFFF;
+}
+
+
+/*footer*/
+#index_footer{
+	width:1001px;
+	margin-top:5px;
+	margin-bottom:5px;
+	background-image:url(../images/footer_bg.gif);
+	background-repeat:no-repeat;
+	font-size:13px;
+	color:#666;
+	font-weight:bold;
+	padding:0px 20px 0px 20px;
+}
+#index_footer a{
+	color:#06C;
+	text-decoration:none;
+}
+

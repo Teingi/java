@@ -1,0 +1,93 @@
+/* CSS Document */
+body{
+	background-image:url(../images/home_bg.jpg);
+	background-repeat:repeat-x;
+	background-color:#70CBE0;
+}
+
+/*header*/
+#header{
+	width:950px;
+	height:80px;
+}
+
+
+/* container */
+#container{
+	width:950px;
+	height:320px;
+	background-image:url(../images/home_bg.gif);
+	background-color:#FFFFFF;
+	background-repeat:no-repeat;
+}
+
+/*userinfo*/
+#userinfo{
+	width:70%;
+	margin-top:30px;
+	padding:10px;
+	border:dotted 1px #CCC;
+}
+#userinfo .title{
+	font-size:16px;
+	font-weight:bold;
+	color:#09C;
+	border-bottom:dotted 1px #CCC;
+	line-height:30px;
+	
+}
+#userinfo .menu{
+	color:#CCC;
+	font-size:14px;
+	padding:5px;
+}
+#userinfo_content{
+	font-size:14px;
+	color:#666;	
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#userinfo_content img{
+	padding:3px;
+	border:solid 1px #CCC;
+}
+#userinfo .input1{
+	border:solid 1px #CCC;
+	width:260px;
+	height:25px;
+	color:#666;
+	font-weight:bold;
+	font-size:14px;
+}
+#userinfo .input2{
+	border:solid 1px #CCC;
+	width:100px;
+	height:25px;
+	color:#666;
+	font-weight:bold;
+	font-size:14px;
+}
+#userinfo a{
+	color:#09C;
+	text-decoration:none;
+}
+
+
+
+
+
+/*footer*/
+#footer{
+	width:950px;
+	color:#999;
+	background-color:#F0F0F0;
+	margin-top:2px;
+	padding:30px 30px 30px 30px;
+}
+#footer a{
+	color:#09C;
+	text-decoration:none;
+}
+
+
+

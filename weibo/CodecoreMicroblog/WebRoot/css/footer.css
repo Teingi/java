@@ -1,0 +1,17 @@
+/* CSS Document */
+body{
+padding:0px;
+margin:0px;
+}
+
+#footbg{
+background-image:url(../images/footbg.gif);
+height:82px;
+padding-top:25px;
+}
+
+.foot{
+font-size:13px;
+color:#666666;
+text-align:center;
+}
