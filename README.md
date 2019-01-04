@@ -8,7 +8,7 @@ weibo系统项目
  
 4、基本功能包括：账号登录、关注好友、微博动态发布、微博搜索、好友搜索等功能。
  
-[系统设计说明](https://blog.csdn.net/weixin_40449300/article/details/85730592) 
+5、[系统设计说明](https://blog.csdn.net/weixin_40449300/article/details/85730592) 
 
 
 
