@@ -6,7 +6,7 @@ weibo系统项目
 		 4、基本功能包括：账号登录、关注好友、微博动态发布、微博搜索、好友搜索等功能。
 		 5、[具体系统设计说明书](https://pan.baidu.com/s/1SvdrSi03Eo7zkdmuY5UrIw)  
 		 6、[具体代码参见github链接](https://github.com/Teingi/java/tree/master/weibo)
-		
+		[点击前往谷歌搜索](https://www.google.com.hk/)
 画图工具项目
 =================================
 		 1、Draw—————画图工具demo,实现了基本的画图功能；
