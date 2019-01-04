@@ -1,14 +1,11 @@
-java学习记录
+weibo系统项目
 =================================
-		0、README—————说明
-		1、StringCompareEmp.java—————Java 实例 - 字符串比较
+		 **该系统基于B/S结构，即采用浏览器/服务器模式，服务器端由运行ASP.Net的Web应用程序及运行Microsoft SQL Server2005的数据库服务器组成，
+		   客户端可以Internet Explorer，FireFox访问系统。基本功能包括：账号登录、关注好友、微博动态发布、微博搜索、好友搜索等功能。具体系
+		   统设计说明书： https://pan.baidu.com/s/1SvdrSi03Eo7zkdmuY5UrIw 具体代码参见github链接:https://github.com/Teingi/java/tree/master/weibo
 		
-		
-		
-java项目
+画图工具项目
 =================================
-		1、weibo—————微博系统demo,能实现基本的用户注册、登录、互相添加好友、发送微博、基本的查询功能等；
-		
-		
+		 **Draw—————画图工具demo,实现了基本的画图功能；
 		
 		
